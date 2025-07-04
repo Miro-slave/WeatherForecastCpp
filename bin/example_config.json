@@ -1,0 +1,34 @@
+{
+  "api_key": "x2VLHKuJP0JLPokTmQBBcA14aoh6OW2Eck6TvmYw",
+  "update_rate": 10,
+  "forecast_days": 1,
+  "api": {
+    "city_api": {
+      "name": "city_api",
+      "url": "https://api.api-ninjas.com/v1/city?",
+      "properties": [
+        "name"
+      ],
+      "hourly_properties": []
+    },
+    "forecast_api": {
+      "name": "forecast_api",
+      "url": "https://api.open-meteo.com/v1/forecast?",
+      "properties": [
+        "latitude",
+        "longitude",
+        "forecast_days"
+      ],
+      "hourly_properties": [
+        "temperature_2m",
+        "windspeed_10m",
+        "relativehumidity_2m"
+      ]
+    }
+  },
+  "cities": [
+    "Moscow",
+    "Omsk",
+    "Saratov"
+  ]
+}
